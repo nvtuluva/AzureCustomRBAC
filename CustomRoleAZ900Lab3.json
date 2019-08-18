@@ -1,0 +1,38 @@
+{
+        "Name": "CustomRoleAZ900Lab3",
+        "IsCustom": true,
+        "Description": "Lets you manage virtual machines, networks storage",
+        "Actions": [
+                        "Microsoft.Authorization/*/read",
+                        "Microsoft.Insights/alertRules/*",
+                        "Microsoft.Insights/diagnosticSettings/*",
+                        "Microsoft.Storage/storageAccounts/*",
+                        "Microsoft.Network/virtualNetworks/subnets/joinViaServiceEndpoint/action",
+                        "Microsoft.Network/*",
+                        "Microsoft.ResourceHealth/availabilityStatuses/read",
+                        "Microsoft.Resources/deployments/*",
+                        "Microsoft.Resources/subscriptions/resourceGroups/read",
+                        "Microsoft.Compute/availabilitySets/*",
+                        "Microsoft.Compute/locations/*",
+                        "Microsoft.Compute/virtualMachines/*",
+                        "Microsoft.Compute/virtualMachineScaleSets/*",
+                        "Microsoft.RecoveryServices/locations/*",
+                        "Microsoft.RecoveryServices/Vaults/backupFabrics/backupProtectionIntent/write",
+                        "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/protectedItems/*/read",
+                        "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/protectedItems/read",
+                        "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/protectedItems/write",
+                        "Microsoft.RecoveryServices/Vaults/backupPolicies/read",
+                        "Microsoft.RecoveryServices/Vaults/backupPolicies/write",
+                        "Microsoft.RecoveryServices/Vaults/read",
+                        "Microsoft.RecoveryServices/Vaults/usages/read",
+                        "Microsoft.RecoveryServices/Vaults/write",
+                        "Microsoft.SqlVirtualMachine/*",
+                        "Microsoft.Support/*"
+                ],
+        "NotActions": [],
+        "DataActions": [],
+        "NotDataActions": [],
+        "AssignableScopes": [
+                                "/subscriptions/XXXXXXXXXXXXXXXXXXXXXXX"
+                        ]
+}
