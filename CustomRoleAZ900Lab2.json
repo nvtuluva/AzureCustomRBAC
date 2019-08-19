@@ -1,7 +1,7 @@
 {
         "Name": "CustomRoleAZ900Lab2",
         "IsCustom": true,
-        "Description": "Start & Restart Virtual Machines",
+        "Description": "Lets you manage virtual machines & networks ",
         "Actions": [
                         "Microsoft.Authorization/*/read",
                         "Microsoft.Insights/alertRules/*",
@@ -25,7 +25,7 @@
                         "Microsoft.RecoveryServices/Vaults/usages/read",
                         "Microsoft.RecoveryServices/Vaults/write",
                         "Microsoft.SqlVirtualMachine/*",
-                        "Microsoft.Support/*
+                        "Microsoft.Support/*"
                 ],
         "NotActions": [],
         "DataActions": [],
