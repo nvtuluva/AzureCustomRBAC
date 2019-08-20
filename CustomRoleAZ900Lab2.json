@@ -6,6 +6,7 @@
                         "Microsoft.Authorization/*/read",
                         "Microsoft.Insights/alertRules/*",
                         "Microsoft.Insights/diagnosticSettings/*",
+                        "Microsoft.Storage/storageAccounts/*",
                         "Microsoft.Network/*",
                         "Microsoft.ResourceHealth/availabilityStatuses/read",
                         "Microsoft.Resources/deployments/*",
